@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subscriptions - Baby Ranger</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="mobile-frame">
+    <div class="app-container no-sidebar">
+      <main class="dashboard">
+        <header class="dashboard-header small">
+          <button class="back-btn" onclick="history.back()">←</button>
+          <h1>Subscriptions</h1>
+        </header>
+
+        <section class="active-subscription">
+          <h3>Current Subscription</h3>
+          <div class="package-card full">
+            <div>
+              <img src="https://img.icons8.com/ios-filled/50/baby.png"/>
+              <div>
+                <strong>Package A</strong>
+                <p>For 6–12 Month olds</p>
+              </div>
+            </div>
+            <div class="price-block">
+              <p><strong>Rp2,000,000</strong>/Month</p>
+              <button class="small">Manage</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="available-subscriptions">
+          <h3>Available Packages</h3>
+
+          <div class="package-card">
+            <div>
+              <img src="https://img.icons8.com/ios-filled/50/baby.png"/>
+              <div>
+                <strong>Package B</strong>
+                <p>For 1–2 Year olds</p>
+              </div>
+            </div>
+            <div class="price-block">
+              <p><strong>Rp2,500,000</strong>/Month</p>
+              <button>Switch</button>
+            </div>
+          </div>
+
+          <div class="package-card">
+            <div>
+              <img src="https://img.icons8.com/ios-filled/50/baby.png"/>
+              <div>
+                <strong>Package C</strong>
+                <p>For 3–5 Year olds</p>
+              </div>
+            </div>
+            <div class="price-block">
+              <p><strong>Rp3,000,000</strong>/Month</p>
+              <button>Switch</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="recommended-subscriptions">
+          <h3>Recommended for You</h3>
+
+          <div class="package-card">
+            <div>
+              <img src="https://img.icons8.com/ios-filled/50/baby.png"/>
+              <div>
+                <strong>Package Plus</strong>
+                <p>With extra nutrition packs</p>
+              </div>
+            </div>
+            <div class="price-block">
+              <p><strong>Rp3,500,000</strong>/Month</p>
+              <button>View</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  
+  <nav class="bottom-nav">
+  <a href="index.html" class="nav-item">
+    <img src="https://img.icons8.com/ios-filled/24/home.png" alt="Home" />
+    <span>Home</span>
+  </a>
+  <a href="subscriptions.html" class="nav-item active">
+    <img src="https://img.icons8.com/ios-filled/24/appointment-reminders.png" alt="Subscriptions" />
+    <span>Subscriptions</span>
+  </a>
+  <a href="billings.html" class="nav-item">
+    <img src="https://img.icons8.com/ios-filled/24/today.png" alt="Billing" />
+    <span>Billing</span>
+  </a>
+  <a href="baby-details.html" class="nav-item">
+    <img src="https://img.icons8.com/ios-filled/24/baby.png" alt="My Baby" />
+    <span>My Baby</span>
+  </a>
+</body>
+</html>

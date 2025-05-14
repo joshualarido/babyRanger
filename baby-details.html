@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baby Details - Baby Ranger</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="mobile-frame">
+    <div class="app-container no-sidebar">
+      <main class="dashboard">
+        <header class="dashboard-header small">
+          <button class="back-btn" onclick="history.back()">←</button>
+          <h1>Baby Details</h1>
+        </header>
+
+        <div style="margin-top: 20px;"></div>
+
+        <section class="baby-info card">
+          <div class="baby-avatar">
+            <img src="https://picsum.photos/seed/baby3/80" alt="Baby Jennifer" />
+          </div>
+          <h2>Baby Jennifer</h2>
+          <p>Age: 7 Months</p>
+        </section>
+
+        <div style="margin-top: 20px;"></div>
+
+        <section class="growth card">
+          <h3>Growth Tracker</h3>
+          <ul>
+            <li><strong>Weight:</strong> 7.8 kg</li>
+            <li><strong>Height:</strong> 68 cm</li>
+            <li><strong>Teeth:</strong> 2 teeth visible</li>
+          </ul>
+        </section>
+
+        <div style="margin-top: 20px;"></div>
+
+        <section class="health card">
+          <h3>Health Notes</h3>
+          <p>Last doctor visit: 10 April 2025</p>
+          <p>Vaccinations up to date ✅</p>
+        </section>
+        
+        <div style="margin-top: 20px;"></div>
+
+        <section class="preferences card">
+          <h3>Preferences</h3>
+          <p>Favorite toy: Rattle</p>
+          <p>Allergies: None</p>
+        </section>
+      </main>
+    </div>
+  </div>
+  
+  <nav class="bottom-nav">
+  <a href="index.html" class="nav-item">
+    <img src="https://img.icons8.com/ios-filled/24/home.png" alt="Home" />
+    <span>Home</span>
+  </a>
+  <a href="subscriptions.html" class="nav-item">
+    <img src="https://img.icons8.com/ios-filled/24/appointment-reminders.png" alt="Subscriptions" />
+    <span>Subscriptions</span>
+  </a>
+  <a href="billings.html" class="nav-item">
+    <img src="https://img.icons8.com/ios-filled/24/today.png" alt="Billing" />
+    <span>Billing</span>
+  </a>
+  <a href="baby-details.html" class="nav-item active">
+    <img src="https://img.icons8.com/ios-filled/24/baby.png" alt="My Baby" />
+    <span>My Baby</span>
+  </a>
+</body>
+</html>
